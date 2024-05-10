@@ -1,0 +1,14 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: DockerfileV6
+    image: dev-container
+    container_name: dev
+    restart: always
+    tty: true
+    volumes:
+      - type: bind
+        source: ./
+        target: /workspace/app
