@@ -1,11 +1,14 @@
 #
 
 ```bash
-REPOSITORY                    TAG       IMAGE ID       CREATED          SIZE
-dev-container                 v1        7292cf57198a   18 seconds ago   1.42GB
-dev-container                 v2        7292cf57198a   18 seconds ago   1.17GB
-dev-container                 v3        7292cf57198a   18 seconds ago   1.17GB
-dev-container                 v4        7292cf57198a   18 seconds ago   188MB
-dev-container                 v5        7292cf57198a   18 seconds ago   188MB
-dev-container                 v6        7292cf57198a   18 seconds ago   188MB
+REPOSITORY                    TAG       SIZE
+dev-container                 v1        2.31GB
+dev-container                 v1        1.42GB
+dev-container                 v2        1.17GB
+dev-container                 v3        1.17GB
+dev-container                 v4         188MB
+dev-container                 v5         188MB
+dev-container                 v6         188MB
 ```
+
+一番上は`pyproject.toml`が dummy ではないバージョン
